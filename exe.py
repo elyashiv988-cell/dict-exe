@@ -36,6 +36,7 @@ print(d1|d2)
 '''
 #3
 d1 = {'a': 1, 'b': 2}
-print(d1.pop("a"))
-print (d1)
-print(d1.pop("c"))
+if d2 in d1:
+    print(d2=d1.pop("a"))
+else:
+    print("error")

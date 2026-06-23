@@ -33,7 +33,7 @@ print(conflig)
 d1 = {'a': 1, 'b': 2}
 d2 = {'b': 3, 'c': 4}
 print(d1|d2)
-'''
+
 #3
 d1 = {'a': 1, 'b': 2}
 print(d1.pop('a'))
@@ -42,3 +42,19 @@ print(missing)
 #4
 nested={'server': {'host': 'localhost', 'port': 8080}}
 print(nested["server"]["port"])
+'''
+# part 3
+# understanding questions:
+# 1. hash map is a collecoion of key values. python uses it by saving a each key on number in memory. 
+# 2. hashadle must to be once of the premitve values how can't umpposible to change (like list) for don't hit the memory index. 
+# 3. the difference is that whem the comuter cearch in a list the program runs on the list until it find the value. and if the list is big it take time and power. but cearching in dict is difference, the computer dosn't run on all the dict but jump directly to the value by the index memory. 
+# practice:
+# 1
+names={"avi":"cohen","eli":"levi"}
+names.update({"ori":"israel","deni":"mor"})
+print(names)
+# 2
+my_ln=[('a',1),('b',2)]
+print(dict(my_ln))
+#
+#

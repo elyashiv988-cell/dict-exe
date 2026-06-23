@@ -1,4 +1,5 @@
 # part 1
+'''
 agent={'name': 'Alpha', 'level': 3, 'active': True}
 print(agent)
 print(agent["name"])
@@ -19,3 +20,22 @@ print(max(scores,key=scores.get))
 new_agent=agent.copy()
 new_agent["level"]=999
 print(agent, new_agent)
+# part 2
+
+# 1
+conflig={}
+con1=conflig.setdefault("tineout",30)
+print(conflig)
+con2=conflig.setdefault("tineout",50)
+print(conflig)
+# 2
+
+d1 = {'a': 1, 'b': 2}
+d2 = {'b': 3, 'c': 4}
+print(d1|d2)
+'''
+#3
+d1 = {'a': 1, 'b': 2}
+print(d1.pop("a"))
+print (d1)
+print(d1.pop("c"))

@@ -2,9 +2,15 @@
 agent={'name': 'Alpha', 'level': 3, 'active': True}
 print(agent)
 print(agent["name"])
-if agent["level"]:
-    print(agent.get("level"))
-else:
-    print(0)
+print(agent.get("level"))
+print(agent.get(0))
 agent["score"]=95
 print(agent)
+agent["level"]=5
+print(agent)
+del agent["active"]
+print(agent)
+print(agent.keys())
+print(agent.values())
+print(agent.items())
+print(True) if "score" in agent else print(False)

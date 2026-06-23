@@ -66,9 +66,9 @@ set_1={1,2,3,4,5,}
 set_2={7,8,8,9}
 print(set_1.symmetric_difference(set_2))
 #5
-# because lists are mutible but tuple and set are immutible so they can connect each other. 
+# because lists are mutible but t suple and set are immutible so they can connect each other. 
 set_1={7,8,8,9}
 tuple_1=(1,2,3)
 list_1=[4,5,6]
-print(list1.append(tuple_1))
-print(tuple_1+set1)
+print(set_1.add(tuple_1))
+print(set_1.add(list_1))

@@ -14,3 +14,5 @@ print(agent.keys())
 print(agent.values())
 print(agent.items())
 print(True) if "score" in agent else print(False)
+scores={'Alpha': 80, 'Bravo': 95, 'Charlie': 70}
+print(scores.items(scores.max()))

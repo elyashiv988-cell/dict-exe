@@ -36,7 +36,9 @@ print(d1|d2)
 '''
 #3
 d1 = {'a': 1, 'b': 2}
-if d2 in d1:
-    print(d2=d1.pop("a"))
-else:
-    print("error")
+print(d1.pop('a'))
+missing= d1.pop('y', "no key")
+print(missing)
+#4
+nested={'server': {'host': 'localhost', 'port': 8080}}
+print(nested["server"]["port"])
